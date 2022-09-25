@@ -15,8 +15,7 @@ const Sliders = () => {
                     />
                     <Carousel.Caption>
                         <div className='description'>
-                            <h3>Titre</h3>
-                            <p>description</p>
+                            <h3 className='btn btn-light rounded-pill'> En savoir plus </h3>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -28,9 +27,8 @@ const Sliders = () => {
                     />
 
                     <Carousel.Caption>
-                        <div className='description'>
-                            <h3>Titre</h3>
-                            <p>description</p>
+                    <div className='description'>
+                            <h3 className='btn btn-light rounded-pill'> En savoir plus </h3>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -42,9 +40,8 @@ const Sliders = () => {
                     />
 
                     <Carousel.Caption>
-                        <div className='description'>
-                            <h3>Titre</h3>
-                            <p>description</p>
+                    <div className='description'>
+                            <h3 className='btn btn-light rounded-pill'> En savoir plus </h3>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
