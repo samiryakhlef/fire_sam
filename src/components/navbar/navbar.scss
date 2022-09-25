@@ -1,0 +1,58 @@
+@import "~bootstrap/scss/bootstrap";
+
+.navbar {
+  background: #111213; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.iconleft,
+.iconright {
+  margin-left: 2%;
+  display: flex;
+}
+.big_icon {
+  font-size: 72px;
+}
+.icon_items_thumbnails{
+  color: #fff;
+  font-size: 50px;
+  height: 4.5rem;
+  width: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 5px;
+ 
+  &:hover {
+    background-color: #000;
+  }
+
+  &:hover{
+    color:#ffffff;
+    transition: 0.5s;
+  }
+
+  padding: 0 1em;
+  font-size: 25px;
+  color: #000;
+  text-decoration: none;
+}
+.icon_items_rigth {
+  padding: 0 2em;
+}
+.icon_items_rigth p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
