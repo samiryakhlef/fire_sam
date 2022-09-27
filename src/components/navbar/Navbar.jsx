@@ -8,7 +8,7 @@ const NavBar = () => {
         <nav className='navbar'>
         
             <div className='iconleft'>
-                <a href="/" className='icon_items_thumbnails'> User</a>
+                <a href="/" className='icon_items_thumbnails'> <Icon icon="entypo:users" /></a>
                 <a href="/" className='icon_items_thumbnails'> <Icon icon="line-md:search"  className='big_icon'/></a>
                 <a href="/" className='icon_items_thumbnails'> <Icon icon="line-md:home-simple"  className='big_icon'/></a>
                 <a href="/" className='icon_items_thumbnails'> <Icon icon="bx:tv" className='big_icon' /></a>

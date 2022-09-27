@@ -5,12 +5,13 @@ import { Carousel } from 'react-bootstrap';
 
 const Sliders = () => {
     return (
+        
         <div className="sliders">
             <Carousel>
                 <Carousel.Item>
                     <img
                         className="images"
-                        src="https://picsum.photos/200"
+                        src={process.env.PUBLIC_URL + '/assets/img/background.jpg'}
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -22,7 +23,7 @@ const Sliders = () => {
                 <Carousel.Item>
                     <img
                         className="images"
-                        src="https://picsum.photos/200"
+                        src={process.env.PUBLIC_URL + '/assets/img/background2.jpg'}
                         alt="Second slide"
                     />
 
@@ -35,7 +36,7 @@ const Sliders = () => {
                 <Carousel.Item>
                     <img
                         className="images"
-                        src="https://picsum.photos/200"
+                        src={process.env.PUBLIC_URL + '/assets/img/background3.jpg'}
                         alt="Third slide"
                     />
 
